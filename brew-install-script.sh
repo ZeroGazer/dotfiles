@@ -3,6 +3,9 @@
 echo "Install brew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# add cask
+brew tap caskroom/cask
+
 # browsers
 brew cask install chromium
 brew cask install firefox
