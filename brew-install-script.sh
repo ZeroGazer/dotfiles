@@ -18,6 +18,8 @@ brew cask install whatsapp
 # dev tools
 brew cask install docker
 brew install git
+brew install git-lfs
+git lfs install
 brew cask install iterm2
 brew install kubernetes-cli
 brew cask install postman
