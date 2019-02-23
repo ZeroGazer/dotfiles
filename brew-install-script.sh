@@ -36,7 +36,10 @@ brew cask install steam
 brew install python3
 brew cask install anaconda
 brew install nvm
-echo "source $(brew — prefix nvm)/nvm.sh" >> .bash_profile
+mkdir ~/.nvm
+printf "export NVM_DIR="$HOME/.nvm"\n[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm\n[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion" >> .bash_profile
+nvm install --lts
+nvm use stable
 
 # tools
 brew cask install gimp
