@@ -38,7 +38,8 @@ echo "source $(brew — prefix nvm)/nvm.sh" >> .bash_profile
 
 # tools
 brew cask install gimp
-brew install noclamshell
+brew install pirj/homebrew-noclamshell/noclamshell
+brew services start noclamshell
 brew cask install parallels
 brew cask install scroll-reverser
 brew cask install the-unarchiver
