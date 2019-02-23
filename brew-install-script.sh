@@ -10,6 +10,7 @@ brew tap caskroom/cask
 brew cask install chromium
 brew cask install firefox
 brew cask install google-chrome
+brew cask install opera
 
 # communication
 brew cask install telegram-desktop
