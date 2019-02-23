@@ -48,4 +48,5 @@ brew install pirj/homebrew-noclamshell/noclamshell
 brew services start noclamshell
 brew cask install parallels
 brew cask install scroll-reverser
+brew cask install spectacle
 brew cask install the-unarchiver
