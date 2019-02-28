@@ -34,11 +34,15 @@ brew cask install origin
 brew cask install steam
 
 # programming
-brew install python3
-brew cask install anaconda
+brew install pyenv
+printf 'eval "$(pyenv init -)"\n'
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+pyenv install 3.7.2
+pyenv install anaconda3-2018.12
+pyenv global anaconda3-2018.12
 brew install nvm
 mkdir ~/.nvm
-printf "export NVM_DIR="$HOME/.nvm"\n[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm\n[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion" >> .bash_profile
+printf 'export NVM_DIR="$HOME/.nvm"\n[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm\n[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion\n' >> .bash_profile
 nvm install --lts
 nvm use stable
 
