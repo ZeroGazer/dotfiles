@@ -50,6 +50,7 @@ nvm use stable
 brew cask install gimp
 brew install pirj/homebrew-noclamshell/noclamshell
 brew services start noclamshell
+brew cask install oversight
 brew cask install parallels
 brew cask install scroll-reverser
 brew cask install spectacle
