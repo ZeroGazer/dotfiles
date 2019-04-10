@@ -13,6 +13,7 @@ brew cask install google-chrome
 brew cask install opera
 
 # communication
+brew cask install slack
 brew cask install telegram-desktop
 brew cask install whatsapp
 
