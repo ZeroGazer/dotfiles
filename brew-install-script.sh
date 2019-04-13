@@ -48,6 +48,7 @@ nvm install --lts
 nvm use stable
 
 # tools
+brew cask install energybar
 brew cask install gimp
 brew install pirj/homebrew-noclamshell/noclamshell
 brew services start noclamshell
