@@ -49,6 +49,7 @@ nvm install --lts
 nvm use stable
 
 # tools
+brew cask install alfred
 brew cask install content-manager-assistant
 brew cask install energybar
 brew cask install gimp
