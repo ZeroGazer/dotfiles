@@ -34,6 +34,7 @@ brew cask install calibre
 brew cask install openemu
 brew cask install origin
 brew cask install steam
+brew cask install vlc
 
 # programming
 brew install pyenv
