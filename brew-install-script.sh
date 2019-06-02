@@ -19,6 +19,7 @@ brew cask install telegram-desktop
 brew cask install whatsapp
 
 # dev tools
+brew cask install bluestacks
 brew cask install docker
 brew install git
 brew install git-lfs
