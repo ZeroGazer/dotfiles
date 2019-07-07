@@ -53,6 +53,7 @@ nvm use stable
 # tools
 brew cask install alfred
 brew cask install content-manager-assistant
+brew cask install dbeaver-community
 brew cask install energybar
 brew cask install gimp
 brew install pirj/homebrew-noclamshell/noclamshell
