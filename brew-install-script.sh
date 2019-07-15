@@ -11,7 +11,6 @@ brew tap homebrew/cask-drivers
 brew cask install chromium
 brew cask install firefox
 brew cask install google-chrome
-brew cask install opera
 
 # communication
 brew cask install slack
