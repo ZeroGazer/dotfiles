@@ -27,6 +27,8 @@ brew cask install iterm2
 brew install kubernetes-cli
 brew cask install postman
 brew cask install sourcetree
+brew cask install vagrant
+brew cask install virtualbox
 brew cask install visual-studio-code
 
 # entertainment
