@@ -61,6 +61,7 @@ brew cask install energybar
 brew cask install gimp
 brew install pirj/homebrew-noclamshell/noclamshell
 brew services start noclamshell
+brew cask install nordvpn
 brew cask install oversight
 brew cask install parallels
 brew cask install scroll-reverser
