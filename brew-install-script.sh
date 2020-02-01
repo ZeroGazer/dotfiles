@@ -3,6 +3,9 @@
 echo "Install brew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+echo "Disable analytics"
+brew analytics off
+
 # add cask
 brew tap caskroom/cask
 brew tap homebrew/cask-drivers
