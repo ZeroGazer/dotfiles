@@ -24,6 +24,7 @@ brew install git
 brew install git-lfs
 git lfs install
 brew cask install iterm2
+brew cask install kitematic
 brew install kubernetes-cli
 brew cask install postman
 brew cask install sourcetree
