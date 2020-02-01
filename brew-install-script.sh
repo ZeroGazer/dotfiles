@@ -70,6 +70,7 @@ brew services start noclamshell
 brew cask install nordvpn
 brew cask install oversight
 brew cask install parallels
+brew cask install pock
 brew cask install scroll-reverser
 brew cask install spectacle
 brew cask install the-unarchiver
