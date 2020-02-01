@@ -59,6 +59,7 @@ brew cask install bitwarden
 brew cask install content-manager-assistant
 brew cask install dbeaver-community
 brew cask install energybar
+brew cask install evernote
 brew cask install gimp
 brew install pirj/homebrew-noclamshell/noclamshell
 brew services start noclamshell
