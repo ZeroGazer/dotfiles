@@ -31,6 +31,13 @@ brew cask install sourcetree
 brew cask install vagrant
 brew cask install visual-studio-code
 
+# command line tools
+brew install bat
+brew install exa
+brew install fpp
+brew install thefuck
+brew install tig
+
 # entertainment
 brew cask install calibre
 brew cask install openemu
