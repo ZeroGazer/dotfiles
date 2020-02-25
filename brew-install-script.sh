@@ -37,6 +37,8 @@ brew install exa
 brew install fpp
 brew install thefuck
 brew install tig
+brew install zsh-syntax-highlighting
+printf 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 
 # entertainment
 brew cask install calibre
