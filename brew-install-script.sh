@@ -32,13 +32,12 @@ brew cask install vagrant
 brew cask install visual-studio-code
 
 # command line tools
+brew install antigen
 brew install bat
 brew install exa
 brew install fpp
 brew install thefuck
 brew install tig
-brew install zsh-syntax-highlighting
-printf 'source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh' >> ~/.zshrc
 
 # entertainment
 brew cask install calibre
@@ -71,3 +70,6 @@ brew cask install parallels
 brew cask install pock
 brew cask install spectacle
 brew cask install the-unarchiver
+
+# cleanup
+brew cleanup
