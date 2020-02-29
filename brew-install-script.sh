@@ -36,6 +36,7 @@ brew install antigen
 brew install bat
 brew install exa
 brew install fpp
+brew install mas
 brew install thefuck
 brew install tig
 
