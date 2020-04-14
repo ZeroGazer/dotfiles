@@ -34,6 +34,7 @@ brew cask install visual-studio-code
 # command line tools
 brew install antigen
 brew install bat
+brew install bitwarden-cli
 brew install exa
 brew install fpp
 brew install mas
