@@ -15,17 +15,18 @@ brew cask install google-chrome
 
 # communication
 brew cask install microsoft-teams
-brew cask install slack
 brew cask install telegram-desktop
 brew cask install whatsapp
 
 # dev tools
+brew cask install dash
 brew cask install docker
 brew install git
 brew install git-lfs
 git lfs install
-brew cask install intellij-idea-ce
+brew cask install intellij-idea
 brew cask install kitematic
+brew cask install lens
 brew cask install postman
 brew cask install sourcetree
 brew cask install vagrant
@@ -34,7 +35,6 @@ brew cask install visual-studio-code
 # command line tools
 brew install antigen
 brew install bat
-brew install bitwarden-cli
 brew install exa
 brew install fpp
 brew install mas
@@ -63,15 +63,12 @@ nvm use stable
 brew cask install alfred
 brew cask install bitwarden
 brew cask install content-manager-assistant
-brew cask install dbeaver-community
-brew cask install evernote
 brew cask install gimp
 brew cask install nordvpn
 brew cask install oversight
 brew cask install parallels
 brew cask install pock
 brew cask install spectacle
-brew cask install the-unarchiver
 
 # cleanup
 brew cleanup
