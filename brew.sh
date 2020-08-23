@@ -8,6 +8,10 @@ brew analytics off
 
 # add cask
 brew tap homebrew/cask-drivers
+brew tap homebrew/cask-fonts
+
+# fonts
+brew cask install font-hack-nerd-font
 
 # browsers
 brew cask install firefox
