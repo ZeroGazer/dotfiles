@@ -4,6 +4,9 @@ mas install 1295203466
 # LINE
 mas install 539883307
 
+# Facebook messenger
+mas install 1480068668
+
 # Mac Apps
 # Xcode
 mas install 497799835
