@@ -7,6 +7,9 @@ mas install 539883307
 # Facebook messenger
 mas install 1480068668
 
+# Octotree Pro
+mas install 1457450145
+
 # Mac Apps
 # Xcode
 mas install 497799835
