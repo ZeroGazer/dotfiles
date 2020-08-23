@@ -20,16 +20,12 @@ brew cask install whatsapp
 
 # dev tools
 brew cask install dash
-brew cask install docker
 brew install git
 brew install git-lfs
 git lfs install
 brew cask install intellij-idea
-brew cask install kitematic
-brew cask install lens
 brew cask install postman
 brew cask install sourcetree
-brew cask install vagrant
 brew cask install visual-studio-code
 
 # command line tools
@@ -40,6 +36,22 @@ brew install fpp
 brew install mas
 brew install thefuck
 brew install tig
+
+# vm
+brew cask install parallels
+brew cask install vagrant
+
+# docker
+brew install docker
+brew install docker-compose
+brew install docker-machine
+brew install docker-machine-parallels
+brew cask install kitematic
+
+# kubernetes
+brew install helm
+brew install kubectl
+brew cask install lens
 
 # entertainment
 brew cask install calibre
@@ -66,7 +78,6 @@ brew cask install content-manager-assistant
 brew cask install gimp
 brew cask install nordvpn
 brew cask install oversight
-brew cask install parallels
 brew cask install pock
 brew cask install spectacle
 
