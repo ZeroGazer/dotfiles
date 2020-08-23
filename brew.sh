@@ -67,7 +67,6 @@ pyenv install anaconda3-2018.12
 pyenv global anaconda3-2018.12
 brew install nvm
 mkdir ~/.nvm
-printf 'export NVM_DIR="$HOME/.nvm"\n[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm\n[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion\n' >> ~/.zshrc
 nvm install --lts
 nvm use stable
 

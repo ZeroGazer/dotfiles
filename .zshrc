@@ -1,8 +1,51 @@
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+
+# nvm
+if command -v nvm &> /dev/null
+then
+  # Calling nvm use automatically in a directory with a .nvmrc file
+  autoload -U add-zsh-hook
+  load-nvmrc() {
+    local node_version="$(nvm version)"
+    local nvmrc_path="$(nvm_find_nvmrc)"
+
+    if [ -n "$nvmrc_path" ]; then
+      local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
+
+      if [ "$nvmrc_node_version" = "N/A" ]; then
+        nvm install
+      elif [ "$nvmrc_node_version" != "$node_version" ]; then
+        nvm use
+      fi
+    elif [ "$node_version" != "$(nvm version default)" ]; then
+      echo "Reverting to nvm default version"
+      nvm use default
+    fi
+  }
+  add-zsh-hook chpwd load-nvmrc
+  load-nvmrc
+fi
+
 # kubectl
-autoload -Uz compinit
-compinit
-source <(kubectl completion zsh)
+if command -v kubectl &> /dev/null
+then
+  # setup kubectl shell completion
+  autoload -Uz compinit
+  compinit
+  source <(kubectl completion zsh)
+fi
+
+# thefuck
+if command -v thefuck &> /dev/null
+then
+  eval $(thefuck --alias)
+fi
 
 # Antigen
-source /usr/local/share/antigen/antigen.zsh
-antigen init .antigenrc
+if command -v antigen &> /dev/null
+then
+  source /usr/local/share/antigen/antigen.zsh
+  antigen init .antigenrc
+fi
