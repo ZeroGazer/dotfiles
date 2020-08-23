@@ -60,9 +60,6 @@ brew cask install steam
 
 # programming
 brew install nvm
-mkdir ~/.nvm
-nvm install --lts
-nvm use stable
 
 # tools
 brew cask install alfred
