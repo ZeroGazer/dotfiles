@@ -46,11 +46,11 @@ brew cask install parallels
 brew cask install vagrant
 
 # docker
+brew install dive
 brew install docker
 brew install docker-compose
 brew install docker-machine
 brew install docker-machine-parallels
-brew cask install kitematic
 
 # kubernetes
 brew install helm
