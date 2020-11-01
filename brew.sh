@@ -55,6 +55,7 @@ brew install docker-machine-parallels
 # kubernetes
 brew install helm
 brew install kubectl
+brew install kustomize
 brew cask install lens
 
 # entertainment
