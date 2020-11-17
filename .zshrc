@@ -1,3 +1,6 @@
+# fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 # setup kubectl shell completion
 autoload -Uz compinit
 compinit

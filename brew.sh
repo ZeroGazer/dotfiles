@@ -37,6 +37,8 @@ brew install antigen
 brew install bat
 brew install exa
 brew install fpp
+brew install fzf
+/usr/local/opt/fzf/install --all
 brew install mas
 brew install peco
 brew install ranger
