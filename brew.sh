@@ -38,8 +38,11 @@ brew install bat
 brew install exa
 brew install fpp
 brew install mas
+brew install peco
+brew install ranger
 brew install thefuck
 brew install tig
+brew install tldr
 
 # vm
 brew cask install parallels
