@@ -69,7 +69,6 @@ brew install nvm
 # tools
 brew cask install alfred
 brew cask install bitwarden
-brew cask install content-manager-assistant
 brew cask install gimp
 brew cask install nordvpn
 brew cask install oversight
