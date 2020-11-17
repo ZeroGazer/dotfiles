@@ -1,21 +1,11 @@
-# kubectl
-if command -v kubectl &> /dev/null
-then
-  # setup kubectl shell completion
-  autoload -Uz compinit
-  compinit
-  source <(kubectl completion zsh)
-fi
+# setup kubectl shell completion
+autoload -Uz compinit
+compinit
+source <(kubectl completion zsh)
 
 # thefuck
-if command -v thefuck &> /dev/null
-then
-  eval $(thefuck --alias)
-fi
+eval $(thefuck --alias)
 
 # Antigen
-if command -v antigen &> /dev/null
-then
-  source /usr/local/share/antigen/antigen.zsh
-  antigen init .antigenrc
-fi
+source /usr/local/share/antigen/antigen.zsh
+antigen init .antigenrc
