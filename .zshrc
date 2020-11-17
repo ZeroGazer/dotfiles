@@ -1,10 +1,3 @@
-# docker
-if command -v docker-machine &> /dev/null
-then
-  # init docker env
-  docker-machine ls --format "{{.Name}}" | grep -q "docker" && eval $(docker-machine env docker)
-fi
-
 # kubectl
 if command -v kubectl &> /dev/null
 then
