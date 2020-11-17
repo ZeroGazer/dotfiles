@@ -63,8 +63,9 @@ brew cask install calibre
 brew cask install openemu
 brew cask install steam
 
-# programming
-brew install nvm
+# node
+brew install node
+brew install yarn
 
 # tools
 brew cask install alfred
