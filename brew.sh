@@ -73,7 +73,10 @@ brew install yarn
 brew cask install alfred
 brew cask install bitwarden
 brew cask install gimp
+brew cask install logitech-options
+brew cask install microsoft-office
 brew cask install nordvpn
+brew cask install notion
 brew cask install oversight
 brew cask install pock
 brew cask install spectacle
