@@ -63,6 +63,7 @@ brew cask install lens
 # entertainment
 brew cask install calibre
 brew cask install openemu
+brew cask install sidequest
 brew cask install steam
 
 # node
