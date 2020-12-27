@@ -11,26 +11,26 @@ brew tap homebrew/cask-drivers
 brew tap homebrew/cask-fonts
 
 # fonts
-brew cask install font-hack-nerd-font
+brew installl --cask font-hack-nerd-font
 
 # browsers
-brew cask install firefox
-brew cask install google-chrome
+brew installl --cask firefox
+brew installl --cask google-chrome
 
 # communication
-brew cask install microsoft-teams
-brew cask install telegram-desktop
-brew cask install whatsapp
+brew installl --cask microsoft-teams
+brew installl --cask telegram-desktop
+brew installl --cask whatsapp
 
 # dev tools
-brew cask install dash
+brew installl --cask dash
 brew install git
 brew install git-lfs
 git lfs install
-brew cask install intellij-idea
-brew cask install postman
-brew cask install sourcetree
-brew cask install visual-studio-code
+brew installl --cask intellij-idea
+brew installl --cask postman
+brew installl --cask sourcetree
+brew installl --cask visual-studio-code
 
 # command line tools
 brew install antigen
@@ -47,40 +47,40 @@ brew install tig
 brew install tldr
 
 # vm
-brew cask install parallels
-brew cask install vagrant
+brew installl --cask parallels
+brew installl --cask vagrant
 
 # docker
 brew install dive
-brew cask install docker
+brew installl --cask docker
 
 # kubernetes
 brew install helm
 brew install kubectl
 brew install kustomize
-brew cask install lens
+brew installl --cask lens
 
 # entertainment
-brew cask install calibre
-brew cask install openemu
-brew cask install sidequest
-brew cask install steam
+brew installl --cask calibre
+brew installl --cask openemu
+brew installl --cask sidequest
+brew installl --cask steam
 
 # node
 brew install node
 brew install yarn
 
 # tools
-brew cask install alfred
-brew cask install bitwarden
-brew cask install gimp
-brew cask install logitech-options
-brew cask install microsoft-office
-brew cask install nordvpn
-brew cask install notion
-brew cask install oversight
-brew cask install pock
-brew cask install spectacle
+brew installl --cask alfred
+brew installl --cask bitwarden
+brew installl --cask gimp
+brew installl --cask logitech-options
+brew installl --cask microsoft-office
+brew installl --cask nordvpn
+brew installl --cask notion
+brew installl --cask oversight
+brew installl --cask pock
+brew installl --cask spectacle
 
 # cleanup
 brew cleanup
