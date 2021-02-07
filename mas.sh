@@ -4,9 +4,6 @@ mas install 1295203466
 # LINE
 mas install 539883307
 
-# Facebook messenger
-mas install 1480068668
-
 # Octotree Pro
 mas install 1457450145
 
