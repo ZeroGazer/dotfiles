@@ -72,7 +72,6 @@ brew install yarn
 
 # tools
 brew installl --cask alfred
-brew installl --cask bitwarden
 brew installl --cask gimp
 brew installl --cask logitech-options
 brew installl --cask microsoft-office

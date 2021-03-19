@@ -7,6 +7,9 @@ mas install 539883307
 # Octotree Pro
 mas install 1457450145
 
+# Bitwarden
+mas install 1352778147
+
 # Mac Apps
 # Xcode
 mas install 497799835
