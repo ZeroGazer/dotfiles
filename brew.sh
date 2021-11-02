@@ -60,6 +60,9 @@ brew install kubectl
 brew install kustomize
 brew installl --cask lens
 
+# cloud
+brew install awscli
+
 # entertainment
 brew installl --cask calibre
 brew installl --cask openemu
