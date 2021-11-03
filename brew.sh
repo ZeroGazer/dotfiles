@@ -62,6 +62,7 @@ brew installl --cask lens
 
 # cloud
 brew install awscli
+brew install aws-cdk
 
 # entertainment
 brew installl --cask calibre
