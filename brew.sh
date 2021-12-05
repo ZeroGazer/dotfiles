@@ -84,7 +84,6 @@ brew install --cask nordvpn
 brew install --cask notion
 brew install --cask oversight
 brew install --cask pock
-brew install --cask spectacle
 
 # cleanup
 brew cleanup
