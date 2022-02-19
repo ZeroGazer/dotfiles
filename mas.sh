@@ -4,6 +4,9 @@ mas install 1295203466
 # LINE
 mas install 539883307
 
+# TweetDeck
+mas install 485812721
+
 # Octotree Pro
 mas install 1457450145
 
