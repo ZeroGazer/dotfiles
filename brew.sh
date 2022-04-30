@@ -14,6 +14,7 @@ brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 
 # browsers
+brew install --cask brave-browser
 brew install --cask firefox
 brew install --cask google-chrome
 
