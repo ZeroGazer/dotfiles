@@ -12,10 +12,16 @@ fi
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# setup kubectl shell completion
+# kubectl shell completion
 autoload -Uz compinit
 compinit
 source <(kubectl completion zsh)
+
+# aws cli shell completion
+export PATH="/usr/local/bin/aws_completer:$PATH"
+
+# azure cli shell completion
+source /usr/local/etc/bash_completion.d/az
 
 # thefuck
 eval $(thefuck --alias)
