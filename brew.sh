@@ -19,6 +19,7 @@ brew install --cask firefox
 brew install --cask google-chrome
 
 # communication
+brew install --cask discord
 brew install --cask microsoft-teams
 brew install --cask telegram-desktop
 brew install --cask whatsapp
